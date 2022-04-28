@@ -10,37 +10,51 @@ import ArrowEven from 'assets/arrowEven.png';
 const data = [
   {
     id: 1,
-    title: 'Set disbursement Instructions',
+    title: 'PHASE 1',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'LAUNCH DISCORD, TWITTER, WEBSITE & YOUTUBE.',
+    text2:
+      'Initials DONATION / CHARITY FUNDING.',
+    text3:
+      'LAUNCH THE COLLECTION Legendary Classes.',
   },
   {
     id: 2,
-    title: 'Assembly retrieves funds from your account',
+    title: 'PHASE 2',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'ENABLE OUR DAO SYSTEM THAT WILL ALLOW HOLDERS OF THE PROJECT TO HAVE VOTING POWER.',
+    text2:
+      'CURRENT HODLERS WILL BE REWARDED WITH EXCLUSIVE AIRDROPS.',
+    text3:
+      'OFFICIAL MERCH STORE WILL BE RELEASED TO ALL CURRENT HODLERS.',   
   },
   {
     id: 3,
-    title: 'Assembly initiates disbursement',
+    title: 'PHASE 3',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'ACTIVATE AND FUND THE COMMUNITY AND CHARITY WALLET. FIRST IRL MEET UP',
+    text2:
+      'FIRST IRL MEET UP',
   },
   {
     id: 4,
-    title: 'Customer receives funds payment',
+    title: 'PHASE 4',
     text:
-      'Get your blood tests delivered at home collect a sample from the your blood tests.',
+      'THE METAVERSE ACTION BEGINS!',
+    text2:
+      'HODLERS WILL BEGIN TO RECEIVE $CLASS TOKEN FOR AMOUNT OF HODLING TIME ',
+    text3:
+      'AIRDROP TO ALL HODLERS (TIER BASED & METAVERSE READY) ',
   },
 ];
 
 export default function WorkFlow() {
   return (
-    <section sx={styles.workflow}>
+    <section id="workflow" sx={styles.workflow}>
       <Container>
         <SectionHeader
-          slogan="Whats the function"
-          title="Let’s see how it works"
+          slogan="Road-Map"
+          title="Our Road Map"
           isWhite={true}
         />
 

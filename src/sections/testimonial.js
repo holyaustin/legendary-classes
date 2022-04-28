@@ -13,40 +13,40 @@ import Avatar4 from 'assets/testimonial/avatar4.png';
 const data = [
   {
     id: 1,
-    title: 'Modern look & trending design',
+    title: 'Founder',
     description:
-      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
-    avatar: Avatar1,
-    name: 'Denny Hilguston',
-    designation: '@denny.hil',
-    review: 4,
+      'Get working experience to work with this amazing team & in future want to work together for bright future projects.',
+    avatar: Avatar4,
+    name: 'Markus Napoleon',
+    designation: '@markus.napoleon',
+    review: 5,
   },
   {
     id: 2,
-    title: 'Design Quality & performance',
+    title: 'Advisor',
     description:
-      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
+      'Get working experience to work with this amazing team & in future want to work together for bright future projects.',
     avatar: Avatar2,
-    name: 'Denny Hilguston',
-    designation: '@denny.hil',
+    name: 'Henrique Centrio',
+    designation: '@henrique.centrio',
     review: 5,
   },
   {
     id: 3,
-    title: 'Layout and organized layers',
+    title: 'Snr Developer',
     description:
-      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
+      'Get working experience to work with this amazing team & in future want to work together for bright future projects.',
     avatar: Avatar3,
-    name: 'Denny Hilguston',
-    designation: '@denny.hil',
+    name: 'Augustine Onuora',
+    designation: '@augustine.Onuora',
     review: 5,
   },
   {
     id: 4,
-    title: 'Modern look & trending design',
+    title: '3D Designer',
     description:
-      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
-    avatar: Avatar4,
+      'Get working experience to work with this amazing team & in future want to work together for bright future projects.',
+    avatar: Avatar1,
     name: 'Denny Hilguston',
     designation: '@denny.hil',
     review: 4,
@@ -80,7 +80,7 @@ export default function TestimonialCard() {
   return (
     <section id="testimonial" sx={{ variant: 'section.testimonial' }}>
       <Container>
-        <SectionHeader slogan="Testimonial" title="Meet Client Satisfaction" />
+        <SectionHeader slogan="Team" title="Meet our amazing team" />
       </Container>
       <Box sx={styles.carouselWrapper}>
         <Carousel

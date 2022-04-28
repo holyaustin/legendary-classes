@@ -25,9 +25,9 @@ export default function Footer() {
         </Box>
       </Container>
       <Text sx={styles.footer.copyright}>
-        All right reserved - Design & Developed by
-        <Link path="https://redq.io/" target="_blank">
-          RedQ, Inc
+        All right reserved - Design & Developed for
+        <Link path="" target="_blank">
+          Legendary Classes (c) 2022
         </Link>
       </Text>
     </footer>

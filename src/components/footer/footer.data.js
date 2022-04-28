@@ -18,19 +18,17 @@ export default [
         path: '/',
         label: 'Copyright',
       },
-      {
+      
+    {/** {
         path: '/',
         label: 'Popular Campaign',
-      },
+      },  */} 
     ],
   },
   {
     header: 'Our Information',
     items: [
-      {
-        path: '/',
-        label: 'Return Policy ',
-      },
+
       {
         path: '/',
         label: 'Privacy Policy',
@@ -43,19 +41,13 @@ export default [
         path: '/',
         label: 'Site Map',
       },
-      {
-        path: '/',
-        label: 'Store Hours',
-      },
+
     ],
   },
   {
     header: 'My Account',
     items: [
-      {
-        path: '/',
-        label: 'Press inquiries',
-      },
+
       {
         path: '/',
         label: 'Social media ',
@@ -66,33 +58,9 @@ export default [
       },
       {
         path: '/',
-        label: 'Images & B-roll',
+        label: 'Picture Gallery',
       },
-      {
-        path: '/',
-        label: 'Permissions',
-      },
-    ],
-  },
-  {
-    header: 'Policy',
-    items: [
-      {
-        path: '/',
-        label: 'Application security',
-      },
-      {
-        path: '/',
-        label: 'Software principles',
-      },
-      {
-        path: '/',
-        label: 'Unwanted software policy',
-      },
-      {
-        path: '/',
-        label: 'Responsible supply chain',
-      },
+
     ],
   },
 ];

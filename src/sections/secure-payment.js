@@ -4,21 +4,21 @@ import { Container, Box } from 'theme-ui';
 import TextFeature from 'components/text-feature';
 import Image from 'components/image';
 
-import PaymentThumb from 'assets/paymentThumb.png';
+import PaymentThumb from 'assets/Legendry/logo.jpg';
+//import PaymentThumb from 'assets/Legendry/free.jpg';
 import PaymentPattern from 'assets/payment-pattern.png';
 
 const data = {
-  subTitle: 'PAYMENT SECURITY',
-  title: 'Secure Payment Transaction System with #1 Ranking',
+  subTitle: 'About Us',
+  title: 'Legendary Classes, NFT, Learning in the Metaverse and DAO.',
   description:
-    'Get your tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever. Get your tests delivered at let home collect sample.',
-  btnName: 'Learn More',
+    'We are the first official Classes NFT project in the metaverse! Legendary Classes is a collection of unique 3D Classes on the Ethereum Blockchain. Every single item within the class has different education material where Holders can Learn & Grow. We are looking to make an NFT like no other and make a long lasting community. We are on the purpose of providing free education in REAL World.',
   btnURL: '#',
 };
 
 export default function SecurePayment() {
   return (
-    <section sx={{ variant: 'section.securePayment' }}>
+    <section id="secure-payment" sx={{ variant: 'section.securePayment' }}>
       <Box sx={styles.bgOverlay} />
       <Container sx={styles.containerBox}>
         <Box sx={styles.thumbnail}>
