@@ -45,11 +45,11 @@ export default function Banner() {
               Get Started
             </Button>
             <>
-            {/**
+           
               <ModalVideo
                 channel="youtube"
                 isOpen={videoOpen}
-                videoId="ZNA9rmDsYVE"
+                videoId="l7lq3RrHi3E" //"ZNA9rmDsYVE" //https://www.youtube.com/watch?v=l7lq3RrHi3E
                 onClose={() => setVideoOpen(false)}
               />
                
@@ -58,9 +58,9 @@ export default function Banner() {
                 aria-label="Watch Video"
                 onClick={handleClick}
               >
-                <FaPlayCircle /> Watch Video
+                <FaPlayCircle /> Watch this Video on Breathe to Energize: 
               </Button>
-              */}
+            
             </>
           </Flex>
           <Flex sx={styles.sponsorBox}>

@@ -4,7 +4,7 @@ import { Container, Box } from 'theme-ui';
 import TextFeature from 'components/text-feature';
 import Image from 'components/image';
 
-import PaymentThumb from 'assets/Legendry/logo.jpg';
+import PaymentThumb from 'assets/Legendry/logonew.jpg';
 //import PaymentThumb from 'assets/Legendry/free.jpg';
 import PaymentPattern from 'assets/payment-pattern.png';
 
