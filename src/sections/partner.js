@@ -3,20 +3,20 @@ import { jsx, Container, Box } from 'theme-ui';
 import TextFeature from 'components/text-feature';
 import Image from 'components/image';
 
-import Partner from 'assets/partner.png';
+import Partner from 'assets/BreathYoga-partner.webp';
 
 const data = {
-  subTitle: 'Core features',
-  title: 'Smart Jackpots that you may love this anytime & anywhere',
+  subTitle: 'Core Partner',
+  title: 'Learn BreathYoga',
   description:
-    'Get your tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever. Get your tests delivered at let home collect sample.',
+    'Breath to heal, Breath to energize, Breathwork, Breath Holding and Meditation, Boost energy, vitality and mental peace using breathwork which recreates high altitude training wherever you are, Learn how with BreathYoga.',
   btnName: 'Get Started',
-  btnURL: '#',
+  btnURL: 'https://www.breathyoga.org/',
 };
 
 export default function PartnerSection() {
   return (
-    <section sx={{ variant: 'section.partner' }}>
+    <section sx={{ variant: 'section.partner' }}  id="partner">
       <Container sx={styles.containerBox}>
         <Box sx={styles.contentBox}>
           <TextFeature
@@ -28,7 +28,9 @@ export default function PartnerSection() {
           />
         </Box>
         <Box sx={{ px: [0, null, '40px', 0] }}>
+         
           <Image src={Partner} alt="Partner" />
+         
         </Box>
       </Container>
     </section>

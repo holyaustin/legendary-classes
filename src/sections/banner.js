@@ -41,9 +41,11 @@ export default function Banner() {
             
           </Text>
           <Flex>
+          <a href="https://www.patreon.com/Legendary_Classes?fan_landing=true" target="_blank">
             <Button variant="whiteButton" aria-label="Get Started">
-              Get Started
+              Donate Now
             </Button>
+            </a>
             <>
            
               <ModalVideo

@@ -15,7 +15,7 @@ export default function Header({ className }) {
       <header sx={styles.header} className={className} id="header">
         <Container sx={styles.container}>
           <Logo src={className === 'sticky' ? LogoDark : LogoWhite} />
-           <div style={{fontSize: '30px'}}> Legendary Classes </div>
+           
           <Flex as="nav" sx={styles.nav}>
             {menuItems.map(({ path, label }, i) => (
               <Link
@@ -31,15 +31,15 @@ export default function Header({ className }) {
               </Link>
             ))}
           </Flex>
-
+          <a href="LegendaryWhitepaper.pdf" target="_blank">
           <Button
             className="donate__btn"
             variant="secondary"
             aria-label="Get Started"
           >
-            Join Our Community
+            Download White Paper
           </Button>
-
+          </a>
           <MobileDrawer />
         </Container>
       </header>
@@ -108,7 +108,7 @@ const styles = {
       display: 'block',
     },
     a: {
-      fontSize: '16px',
+      fontSize: '18px',
       fontWeight: '400',
       px: 25,
       cursor: 'pointer',

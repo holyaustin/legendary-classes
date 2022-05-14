@@ -3,43 +3,57 @@ import { jsx, Container, Box, Grid, Text, Heading } from 'theme-ui';
 import TextFeature from 'components/text-feature';
 import Image from 'components/image';
 
-import CoreFeatureThumb from 'assets/Legendry/free.jpg';
+import CoreFeatureThumb from 'assets/paymentThumb.png';
 import Briefcase from 'assets/core-feature/briefcase.svg';
 import Secure from 'assets/core-feature/secure.svg';
 
 const data = {
-  subTitle: 'Our Social Impact',
-  title: 'Helping the under-priviledge',
+  subTitle: 'Donations',
+  title: 'Donate towards sponsoring free education here',
+  btnName: 'Pay with Patreon',
+  btnURL: 'https://www.patreon.com/Legendary_Classes?fan_landing=true',
   features: [
     {
       id: 1,
       imgSrc: Briefcase,
-      altText: 'Free Education for children',
-      title: 'Free Education for children',
+      altText: 'Bitcoin',
+      title: 'Bitcoin Wallet (BTC)',
       text:
-        'Free Education for children',
+        'BTC....BTC',
     },
     {
       id: 2,
-      imgSrc: Secure,
-      altText: 'Free Vouchers for Udemy Courses',
-      title: 'Free Vouchers for Udemy Courses',
+      imgSrc: Briefcase,
+      altText: 'Ethereum (ETH), USDT  and USDC  Wallet',
+      title: 'Ethereum (ETH), USDT  and USDC  Wallet',
       text:
-        'Free Vouchers for Udemy Courses.',
+        '0x1212 ..... 12121',
+
+    },
+    { 
+      id: 3,
+      imgSrc: Secure,
+      altText: 'Terra',
+      title: 'Tera (LUNA)',
+      text:
+        'LUNA....LUNA',
     },
   ],
 };
 
 export default function CoreFeature() {
   return (
-    <section sx={styles.coreFeature} id="core-feature">
+    <section sx={styles.coreFeature} id="donation">
       <Container sx={styles.containerBox}>
         <Box sx={styles.thumbnail}>
           <Image src={CoreFeatureThumb} alt="Thumbnail" />
         </Box>
         <Box sx={styles.contentBox}>
           <Box sx={styles.headingTop}>
-            <TextFeature subTitle={data.subTitle} title={data.title} />
+            <TextFeature subTitle={data.subTitle} title={data.title}
+            btnName={data.btnName}
+            btnURL={data.btnURL}
+          />
           </Box>
 
           <Grid gap="15px 0" columns={1} sx={styles.grid}>

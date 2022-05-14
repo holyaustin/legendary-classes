@@ -4,51 +4,64 @@ import SectionHeader from 'components/section-header';
 import Accordion from 'components/accordion/accordion';
 const faqs = [
   {
-    title: 'How to contact with riders emergency ?',
+    title: 'What is LC’s?',
     contents: (
       <div>
-        Get your website ads tests delivered at let collect sample from the
-        victory of the managements that supplies best design system which
-        guidelines ever with multiple features.
+Legendary Classes (LC’s) is a beautiful community empowering creative minds to Learn & Grow, celebrating the dreamers & doers of the world. We are one of the unparalleled NFT artwork collection laying down steps for Metaverse Learning & spreading Love here and now. Featuring these innovative 3D classes, we are always working to bring the next big thing to the world.
+
+We LC’s believe to power an Ecosystem of Good that builds a better world, where our social significance initiative lie at the core of who we are. With each LC’s NFT sold, we sponsor children in need, ensuring access to quality education, good health care, nutrition, and a caring environment across India & Africa. Together, we aim to leverage the horizonless potential of Web3 to make a real-world impact.
       </div>
     ),
   },
   {
-    title: 'App installation failed, how to update system information?',
+    title: 'What are the benefits of owning an HOL NFT?',
     contents: (
       <div>
-        Rhino skin maybe thick but it can be quite sensitive to sunburns and
-        insect bites which is why they like wallow so much – when the mud dries
-        it acts as protection from the sunburns and insects.
+    • Possession of a unique Legendary Classes artwork
+    • Access to Mindful Courses & Online Skilful Classes
+    • Priority access for Exclusive Airdrops including Physical Goodies
+    • Access to a host of LC’s utilities that increase in value with time. 
+    • Metaverse Learning Gateway 
+
       </div>
     ),
   },
   {
-    title: `Website response taking time, how to improve?`,
+    title: `How much does a Legendary Child Support cost?`,
     contents: (
       <div>
-        Get your blood tests delivered at the home collect a sample from
-        management news. Get your blood tests delivered at the home collect a
-        sample from management news. Get your blood tests delivered at the home
-        collect a sample from management news. Get your blood tests delivered at
-        the home.
+Access to quality education, good health care, nutrition, and a caring environment for a child per annum cost around 2500$+
       </div>
     ),
   },
   {
-    title: `New update fixed all bug and issues`,
+    title: `Where can I buy LC’s & how much?`,
     contents: (
       <div>
-        If you’re looking to hunt a unicorn, but don’t know where to begin, try
-        Lake Superior State University in Sault Ste. Marie, Michigan. Since
-        1971, the university has issued permits to unicorn questers.
+Comming Soon
+      </div>
+    ),
+  },
+  {
+    title: `I’m interested in collaborating, who do I contact?`,
+    contents: (
+      <div>
+We love collaborating with people, organizations & Institutes to spread love here & now…! Reach out us as legendry.classes@gmail.com 
+      </div>
+    ),
+  },
+  {
+    title: `I’d like to donate money to a well, can I do that?`,
+    contents: (
+      <div>
+The world is a better, brighter place because of Legends like you…! You can directly visit our Patreon: https://www.patreon.com/Legendary_Classes
       </div>
     ),
   },
 ];
 export default function Faq() {
   return (
-    <section sx={{ variant: 'section.faq' }}>
+    <section sx={{ variant: 'section.faq' }} id="faq">
       <Container>
         <SectionHeader
           title="Frequently asked question"

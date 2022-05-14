@@ -7,6 +7,7 @@ import Layout from 'components/layout';
 import Banner from 'sections/banner';
 import KeyFeature from 'sections/key-feature';
 import CoreFeature from 'sections/core-feature';
+import Donation from 'sections/donation';
 import Feature from 'sections/feature';
 import PartnerSection from 'sections/partner';
 import WorkFlow from 'sections/workflow';
@@ -24,14 +25,15 @@ export default function IndexPage() {
           <Banner />
           <SecurePayment />
           <WorkFlow />
+          <CoreFeature />
+          <PartnerSection />
+          <Donation />
           <TestimonialCard />
+          <Faq />
           {/** 
           <KeyFeature />
-          <CoreFeature />
           <Feature />
-          <PartnerSection />
           <Package />
-          <Faq />
           */}
         </Layout>
       </StickyProvider>

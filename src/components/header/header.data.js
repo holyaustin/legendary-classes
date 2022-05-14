@@ -5,14 +5,31 @@ export default [
   },
   {
     path: 'secure-payment',
-    label: 'About-Us',
+    label: 'About',
   },
   {
     path: 'workflow',
-    label: 'Road-Map',
+    label: 'RoadMap',
+  },
+  {
+    path: 'core-feature',
+    label: 'Social-Impact',
+  },
+  {
+    path: 'partner',
+    label: 'Partners',
+  },
+  {
+    path: 'donation',
+    label: 'Donations',
   },
   {
     path: 'testimonial',
     label: 'Team',
+  },  
+  {
+    path: 'faq',
+    label: 'FAQ',
   },
+
 ];
