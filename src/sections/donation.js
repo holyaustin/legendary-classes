@@ -33,10 +33,10 @@ const data = {
     { 
       id: 3,
       imgSrc: Secure,
-      altText: 'Terra',
-      title: 'Tera (LUNA)',
+      altText: '',
+      title: 'Dogecoin (DOGE)',
       text:
-        'LUNA....LUNA',
+        'DOGE....DOGE',
     },
   ],
 };
