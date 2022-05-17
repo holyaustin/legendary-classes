@@ -24,8 +24,8 @@ export default function SecurePayment() {
         <Box sx={styles.thumbnail}>
           <Image src={PaymentThumb} alt={data.title} />
         </Box>
-        <Box sx={styles.contentBox}>
-          <TextFeature
+        <Box sx={styles.contentBox} >
+          <TextFeature 
             subTitle={data.subTitle}
             title={data.title}
             description={data.description}
@@ -76,7 +76,7 @@ const styles = {
     width: ['100%', 420, 480, 380, 500, 570],
     mx: 'auto',
     flexShrink: 0,
-    textAlign: ['center', null, null, 'left'],
+    textAlign: ['justify'],
     pt: [0, null, null, 4, '50px', null, 4, '80px'],
     pl: [0, null, null, 40, '90px'],
     pb: [7, null, null, 9],

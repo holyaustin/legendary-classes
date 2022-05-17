@@ -109,6 +109,7 @@ const styles = {
     pr: [0, null, 'auto', null, null, 80],
     pl: 'auto',
     flexShrink: 0,
+    textAlign: ['justify'],
   },
   headingTop: {
     pl: [0, null, null, null, '35px', null, '55px', 6],

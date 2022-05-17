@@ -36,7 +36,7 @@ export default function Banner() {
           <Heading as="h1" variant="heroPrimary">
             Legendary Classes
           </Heading>
-          <Text as="p" variant="heroSecondary">
+          <Text as="p" variant="heroSecondary" sx={{ textAlign: 'justify',}} >
             The Metaverse has come to stay. Legendary classes bring the metaverse to learning. The metaverse classroom is designed for users to learn at their own pace. The Legendary classes is governed by a DAO community that uses the proceeds from her treasury to sponsor free education across the globe.
             
           </Text>

@@ -47,7 +47,7 @@ const styles = {
   contentBox: {
     flexShrink: 0,
     px: [0, null, '30px', 0],
-    textAlign: ['center', null, null, 'left'],
+    textAlign: ['justify'],
     width: ['100%', 450, 550, '350px', '410px', '485px'],
     mx: 'auto',
     pb: ['30px', null, null, 0],
