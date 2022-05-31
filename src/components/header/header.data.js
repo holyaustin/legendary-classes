@@ -4,15 +4,15 @@ export default [
     label: 'Home',
   },
   {
-    path: 'secure-payment',
+    path: 'about',
     label: 'About',
   },
   {
-    path: 'workflow',
+    path: 'roadmap',
     label: 'RoadMap',
   },
   {
-    path: 'core-feature',
+    path: 'social-impact',
     label: 'Social-Impact',
   },
   {
@@ -24,7 +24,7 @@ export default [
     label: 'Donations',
   },
   {
-    path: 'testimonial',
+    path: 'team',
     label: 'Team',
   },  
   {

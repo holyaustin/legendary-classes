@@ -76,9 +76,9 @@ const responsive = {
   },
 };
 
-export default function TestimonialCard() {
+export default function Team() {
   return (
-    <section id="testimonial" sx={{ variant: 'section.testimonial' }}>
+    <section id="team" sx={{ variant: 'section.testimonial' }}>
       <Container>
         <SectionHeader slogan="Team" title="Meet our amazing team" />
       </Container>

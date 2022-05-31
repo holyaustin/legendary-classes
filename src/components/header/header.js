@@ -31,6 +31,15 @@ export default function Header({ className }) {
               </Link>
             ))}
           </Flex>
+          <a href="https://www.patreon.com/Legendary_Classes?fan_landing=true" target="_blank">
+          <Button
+            className="donate__btn"
+            variant="secondary"
+            aria-label="Get Started"
+          >
+            Donate Now
+          </Button>
+          </a>
           <a href="LegendaryWhitepaper.pdf" target="_blank">
           <Button
             className="donate__btn"
@@ -110,7 +119,7 @@ const styles = {
     a: {
       fontSize: '18px',
       fontWeight: '400',
-      px: 25,
+      px: 3,
       cursor: 'pointer',
       lineHeight: '1.2',
       '&.active': {

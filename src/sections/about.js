@@ -12,13 +12,13 @@ const data = {
   subTitle: 'About Us',
   title: 'Legendary Classes, NFT, Learning in the Metaverse and DAO.',
   description:
-    'We are the first official Classes NFT project in the metaverse! Legendary Classes is a collection of unique 3D Classes on the Ethereum Blockchain. Every single item within the class has different education material where Holders can Learn & Grow. We are looking to make an NFT like no other and make a long lasting community. We are on the purpose of providing free education in REAL World.',
+    'We are the first official Classes NFT project in the metaverse! We LC’s believe to power an Ecosystem of Good that builds a better world, where our social significance initiative lie at the core of who we are. With each LC’s NFT sold, we sponsor children in need, ensuring access to quality education, good health care, nutrition, and a caring environment across India & Africa. Together, we aim to leverage the horizonless potential of Web3 to make a real-world impact.',
   btnURL: '#',
 };
 
-export default function SecurePayment() {
+export default function About() {
   return (
-    <section id="secure-payment" sx={{ variant: 'section.securePayment' }}>
+    <section id="about" sx={{ variant: 'section.securePayment' }}>
       <Box sx={styles.bgOverlay} />
       <Container sx={styles.containerBox}>
         <Box sx={styles.thumbnail}>
@@ -77,7 +77,7 @@ const styles = {
     mx: 'auto',
     flexShrink: 0,
     textAlign: ['justify'],
-    pt: [0, null, null, 4, '50px', null, 4, '80px'],
+    pt: [0, null, null, 0, 0, null, 1, 2],
     pl: [0, null, null, 40, '90px'],
     pb: [7, null, null, 9],
     pr: [0, null, null, null, null, 6],

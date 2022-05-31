@@ -9,7 +9,7 @@ import Secure from 'assets/core-feature/secure.svg';
 
 const data = {
   subTitle: 'Our Social Impact',
-  title: 'Helping the under-priviledge',
+  title: 'Spreading Love Here & Now',
   features: [
     {
       id: 1,
@@ -17,22 +17,22 @@ const data = {
       altText: 'Free Education for children',
       title: 'Free Education for children',
       text:
-        'Free Education for children',
+        'Ensuring access to quality education, good health care, nutrition',
     },
     {
       id: 2,
       imgSrc: Secure,
-      altText: 'Free Vouchers for Udemy Courses',
-      title: 'Free Vouchers for Udemy Courses',
+      altText: 'Live Mindful Classes & Courses for Holders',
+      title: 'Live Mindful Classes & Courses for Holders',
       text:
-        'Free Vouchers for Udemy Courses.',
+        'Free Vouchers for Courses.',
     },
   ],
 };
 
-export default function CoreFeature() {
+export default function SocialImpact() {
   return (
-    <section sx={styles.coreFeature} id="core-feature">
+    <section sx={styles.coreFeature} id="social-impact">
       <Container sx={styles.containerBox}>
         <Box sx={styles.thumbnail}>
           <Image src={CoreFeatureThumb} alt="Thumbnail" />

@@ -16,7 +16,7 @@ We LC’s believe to power an Ecosystem of Good that builds a better world, wher
     ),
   },
   {
-    title: 'What are the benefits of owning an HOL NFT?',
+    title: 'What are the benefits of owning an LC NFT?',
     contents: (
       <div sx={{ textAlign: 'justify',}} >
     •   Possession of a unique Legendary Classes artwork. <br />

@@ -3,13 +3,14 @@ import { jsx, Container, Box, Grid, Text, Heading } from 'theme-ui';
 import TextFeature from 'components/text-feature';
 import Image from 'components/image';
 
-import CoreFeatureThumb from 'assets/paymentThumb.png';
+import CoreFeatureThumb from 'assets/Legendry/donate.jpg';
 import Briefcase from 'assets/core-feature/briefcase.svg';
 import Secure from 'assets/core-feature/secure.svg';
 
 const data = {
   subTitle: 'Donations',
   title: 'Donate towards sponsoring free education here',
+  title2: 'The world is a better, brighter place because of Legends like you…!',
   btnName: 'Pay with Patreon',
   btnURL: 'https://www.patreon.com/Legendary_Classes?fan_landing=true',
   features: [
@@ -47,6 +48,13 @@ export default function CoreFeature() {
       <Container sx={styles.containerBox}>
         <Box sx={styles.thumbnail}>
           <Image src={CoreFeatureThumb} alt="Thumbnail" />
+        
+            <TextFeature 
+            //subTitle={data.subTitle} 
+            title={data.title2}
+            //btnName={data.btnName}
+            //btnURL={data.btnURL}
+          />
         </Box>
         <Box sx={styles.contentBox}>
           <Box sx={styles.headingTop}>
@@ -55,7 +63,7 @@ export default function CoreFeature() {
             btnURL={data.btnURL}
           />
           </Box>
-
+          
           <Grid gap="15px 0" columns={1} sx={styles.grid}>
             {data.features.map((item) => (
               <Box sx={styles.card} key={item.id}>

@@ -50,7 +50,7 @@ const data = [
 
 export default function WorkFlow() {
   return (
-    <section id="workflow" sx={styles.workflow}>
+    <section id="roadmap" sx={styles.workflow}>
       <Container>
         <SectionHeader
           slogan="Road-Map"

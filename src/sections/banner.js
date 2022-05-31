@@ -37,15 +37,17 @@ export default function Banner() {
             Legendary Classes
           </Heading>
           <Text as="p" variant="heroSecondary" sx={{ textAlign: 'justify',}} >
-            The Metaverse has come to stay. Legendary classes bring the metaverse to learning. The metaverse classroom is designed for users to learn at their own pace. The Legendary classes is governed by a DAO community that uses the proceeds from her treasury to sponsor free education across the globe.
+          Legendary Classes (LC's) is a beautiful community empowering creative minds to Learn & Grow, celebrating the dreamers & doers of the world. We are one of the unparalleled NFT artwork collection laying down steps for Metaverse Learning & spreading Love here and now. Featuring these innovative 3D classes, we are always working to bring the next big thing to the world.
             
           </Text>
+          {/**
           <Flex>
           <a href="https://www.patreon.com/Legendary_Classes?fan_landing=true" target="_blank">
             <Button variant="whiteButton" aria-label="Get Started">
               Donate Now
             </Button>
-            </a>
+          </a>
+          
             <>
            
               <ModalVideo
@@ -65,6 +67,7 @@ export default function Banner() {
             
             </>
           </Flex>
+           */}
           <Flex sx={styles.sponsorBox}>
             <Text sx={styles.sponsorTitle}>Sponsored by:</Text>
             <Box sx={styles.sponsorBox.sponsor}>

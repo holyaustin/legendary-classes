@@ -85,17 +85,17 @@ export default {
   },
   section: {
     keyFeature: {
-      py: [8, null, 9, null, null, 10],
+      py: [1, null, 0, null, null, 0],
     },
     feature: {
-      py: [8, null, 9, null, null, 10],
+      py: [1, null, 0, null, null, 0],
     },
     partner: {
-      pt: [2, null, null, 5],
-      pb: [8, null, 9, null, null, 10],
+      pt: [2, null, null, 15],
+      pb: [1, null, 0, null, null, 0],
     },
     testimonial: {
-      py: [8, null, 9, null, null, 10],
+      py: [1, null, 0, null, null, 0],
       overflow: 'hidden',
     },
     securePayment: {
@@ -104,7 +104,7 @@ export default {
       pt: 9,
     },
     faq: {
-      py: [8, null, 9, null, null, 10],
+      py: [1, null, 0, null, null, 0],
     },
   },
   sectionHeader: {
