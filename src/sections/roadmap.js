@@ -11,40 +11,41 @@ const data = [
   {
     id: 1,
     title: 'PHASE 1',
+    title2: 'Launch of Social Handles & Artwork Collection',
     text:
-      'LAUNCH DISCORD, TWITTER, WEBSITE & YOUTUBE.',
+      '>>>    Launch Twitter, Discord. ',
     text2:
-      'Initials DONATION / CHARITY FUNDING.',
+      '>>>  Launch Free Mindful Classes.',
     text3:
-      'LAUNCH THE COLLECTION Legendary Classes.',
+      '>>>  Launch Website.',
+    text4:
+      '>>>  Launch unique LC’s artwork.',
   },
   {
     id: 2,
     title: 'PHASE 2',
+    title2: 'Launch of charity DAO & LC Coin.',
     text:
-      'ENABLE OUR DAO SYSTEM THAT WILL ALLOW HOLDERS OF THE PROJECT TO HAVE VOTING POWER.',
-    text2:
-      'CURRENT HODLERS WILL BE REWARDED WITH EXCLUSIVE AIRDROPS.',
-    text3:
-      'OFFICIAL MERCH STORE WILL BE RELEASED TO ALL CURRENT HODLERS.',   
+      '>>>  Enable our DAO system that will allow holders of the project to have voting power.',
+  
   },
   {
     id: 3,
     title: 'PHASE 3',
+    title2: 'IRL Meet ups & Materialistic Goodies',
     text:
-      'ACTIVATE AND FUND THE COMMUNITY AND CHARITY WALLET. FIRST IRL MEET UP',
+      '>>>  First IRL Meet up.',
     text2:
-      'FIRST IRL MEET UP',
+      '>>>  Launch of physical Goodies. ',
   },
   {
     id: 4,
     title: 'PHASE 4',
+    title2: 'Metaverse action Begins',
     text:
-      'THE METAVERSE ACTION BEGINS!',
+      '>>>  Holders enjoy free Metaverse Learning.',
     text2:
-      'HODLERS WILL BEGIN TO RECEIVE $CLASS TOKEN FOR AMOUNT OF HODLING TIME ',
-    text3:
-      'AIRDROP TO ALL HODLERS (TIER BASED & METAVERSE READY) ',
+      '>>>  Partners enjoys Metaverse Advertisements. ',
   },
 ];
 
@@ -64,7 +65,12 @@ export default function WorkFlow() {
               <Box sx={styles.iconBox}>{`0${item.id}`}</Box>
               <Box sx={styles.wrapper}>
                 <Heading sx={styles.wrapper.title}>{item.title}</Heading>
-                <Text sx={styles.wrapper.subTitle}>{item.text}</Text>
+                <Heading sx={styles.wrapper.title}>{item.title2}</Heading>
+                  <Text sx={styles.wrapper.subTitle}>{item.text}</Text>
+                  <Text sx={styles.wrapper.subTitle}>{item.text2}</Text>
+                  <Text sx={styles.wrapper.subTitle}>{item.text3}</Text>
+                  <Text sx={styles.wrapper.subTitle}>{item.text4}</Text>
+            
               </Box>
             </Box>
           ))}

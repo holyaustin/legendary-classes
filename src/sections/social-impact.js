@@ -1,7 +1,20 @@
 /** @jsx jsx */
+import React from 'react';
+import { Slide } from 'react-slideshow-image';
+import 'react-slideshow-image/dist/styles.css';
 import { jsx, Container, Box, Grid, Text, Heading } from 'theme-ui';
 import TextFeature from 'components/text-feature';
+
+// import Carousel from "framer-motion-carousel";
+// import AliceCarousel from 'react-alice-carousel';
+// import "react-alice-carousel/lib/alice-carousel.css";
+// import "../pages/App.css";
 import Image from 'components/image';
+import Image1 from 'assets/Legendry/free.jpg';
+import Image2 from 'assets/Legendry/free2.jpg';
+import Image3 from 'assets/Legendry/free3.jpg';
+import Image4 from 'assets/Legendry/free4.jpg';
+import Image5 from 'assets/Legendry/free5.jpg';
 
 import CoreFeatureThumb from 'assets/Legendry/free.jpg';
 import Briefcase from 'assets/core-feature/briefcase.svg';
@@ -31,12 +44,47 @@ const data = {
 };
 
 export default function SocialImpact() {
+  const images = [
+    Image1,
+    Image2,
+    Image3,
+    Image4,
+    Image5,
+];
   return (
     <section sx={styles.coreFeature} id="social-impact">
       <Container sx={styles.containerBox}>
         <Box sx={styles.thumbnail}>
-          <Image src={CoreFeatureThumb} alt="Thumbnail" />
+        <Slide>
+            <div className="each-slide-effect">
+                <div style={{ 'backgroundImage': `url(${images[0]})` }}>
+                    <span>Slide 1</span>
+                </div>
+            </div>
+            <div className="each-slide-effect">
+                <div style={{ 'backgroundImage': `url(${images[1]})` }}>
+                    <span>Slide 2</span>
+                </div>
+            </div>
+            <div className="each-slide-effect">
+                <div style={{ 'backgroundImage': `url(${images[2]})` }}>
+                    <span>Slide 3</span>
+                </div>
+            </div>
+            <div className="each-slide-effect">
+                <div style={{ 'backgroundImage': `url(${images[3]})` }}>
+                    <span>Slide 4</span>
+                </div>
+            </div>
+            <div className="each-slide-effect">
+                <div style={{ 'backgroundImage': `url(${images[4]})` }}>
+                    <span>Slide 5</span>
+                </div>
+            </div>
+        </Slide>
         </Box>
+
+
         <Box sx={styles.contentBox}>
           <Box sx={styles.headingTop}>
             <TextFeature subTitle={data.subTitle} title={data.title} />
@@ -59,6 +107,7 @@ export default function SocialImpact() {
     </section>
   );
 }
+
 
 const styles = {
   coreFeature: {
@@ -86,7 +135,7 @@ const styles = {
     flexDirection: ['column', null, null, 'row'],
   },
   thumbnail: {
-    pl: [0, 5, 0, null, 7, 95],
+    //pl: [0, 5, 0, null, 7, 95],
     pr: [0, 5, null, null, null, 75, 95],
     order: [2, null, null, 0],
   },

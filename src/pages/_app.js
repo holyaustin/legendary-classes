@@ -3,6 +3,7 @@ import Router from 'next/router';
 import { initGA, logPageView } from 'analytics';
 // Load DM Sans typeface
 import 'typeface-dm-sans';
+import "./App.css";
 
 // Load other package css file
 import 'react-multi-carousel/lib/styles.css';
